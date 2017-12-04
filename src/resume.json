@@ -1,0 +1,144 @@
+{
+    "basics": {
+        "name": "Jordán Rosas",
+        "label": "Android Developer",
+        "picture": "images/profile_cv.png",
+        "email": "cj.rosasavila@gmail.com",
+        "phone": "5529213693",
+        "website": "http://cjordandev.com",
+        "summary": "Los últimos 4 años he desarrollado software, principalmente Android, pero también he incursionado como Full Stack Developer con lenguajes como C#, javascript, java. Implementando a lo largo de estos años diferentes frameworks y metodologías de desarrollo ágil. \n Soy curioso y siempre busco aprender cosas nuevas, me considero proactivo y dispuesto a ayudar a todo aquel que me lo pida.",
+        "location": {
+            "address": "México",
+            "postalCode": "54189",
+            "city": "México",
+            "countryCode": "CDMX",
+            "region": "54189"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "césar-jordán-rosas-ávila-3b388337",
+                "url": "https://www.linkedin.com/in/c%C3%A9sar-jord%C3%A1n-rosas-%C3%A1vila-3b388337/"
+            },
+            {
+                "network": "Github",
+                "username": "jordanrsas",
+                "url": ""
+            },
+            {
+                "network": "Google Plus",
+                "username": "cj.rosasavila@gmail.com",
+                "url": "https://plus.google.com/106322517087849042665"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Zunguapp",
+            "position": "Full Stack Developer Sr.",
+            "website": "http://www.zunguapp.com",
+            "startDate": "201-09-18",
+            "endDate": "",
+            "summary": "En Zungu administro, diseño, desarrollo y pongo en marcha los diferentes proyectos Móviles y Web que el desarrollo de la StartUp demanda. \nImplementando tecnologías que Amazon AWS brinda.",
+            "highlights": []
+        },
+        {
+            "company": "Na-at tachnologies",
+            "position": "Android Developer Sr.",
+            "website": "http://www.na-at.com.mx/",
+            "startDate": "2016-02-29",
+            "endDate": "2017-09-08",
+            "summary": "La principal actividad que desempleñé fué el desarrollo de aplicaciones móviles, destaca la implementación del Framework de desarrollo IBM MobileFirst.\nDurante el tiempo que colavoré con NA-AT, además del desarrollo de aplicaciones móviles hibridas iOs y Android (implementando Javascript y Cordova), también desarrolle servicios web REST en la plataforma de MobileFirst.",
+            "highlights": []
+        },
+        {
+            "company": "Formiik",
+            "position": "Consultor de Integración y Desarrollo",
+            "website": "https://formiik.com",
+            "startDate": "2014-12-01",
+            "endDate": "2015-12-31",
+            "summary": "Como consulto de integración y desarrollo mis tareas principales, eran el desarrollo de aplicaciones complementarias a Formiik, como eran aplicaciones Android que integraban bases de datos SQLite, integrar la impresión de tikets con impresoras móviles y todo lo que pueda agregar valor a la implementación de Formiik con los clientes. \nAdemás de brindar soporte y capacitación para el desarollo de servicios web para la integración del backend del cliente con las herramientas que Formiik brinda. Implementando tecnologías de Azure y Servicios REST en .Net y Java",
+            "highlights": []
+        },
+        {
+            "company": "Addcel",
+            "position": "Android Developer Jr",
+            "website": "",
+            "startDate": "2014-02-16",
+            "endDate": "2014-07-16",
+            "summary": "En Addcel ayudé a desarrollar aplicaciones Android enfocadas en pagos móviles implementando diferentes perifericos como lectores de tarjeta de credito y debito, impresoras y lectores de código de barras.",
+            "highlights": []
+        },
+        {
+            "company": "Adquem",
+            "position": "Android Developer Jr",
+            "website": "",
+            "startDate": "2013-02-16",
+            "endDate": "2014-02-15",
+            "summary": "En Adquem colavoré con el área de investigación y desarrollo, incursionando en desarrollo Móvil Android y en el desarrollo de BackEnd usando Google Apps Engine.",
+            "highlights": []
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "Instituto Politecnico Nacional",
+            "area": "Mecatrónica",
+            "studyType": "Ingeniería ",
+            "startDate": "2006-07-01",
+            "endDate": "2012-02-12",
+            "gpa": "",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Android Development",
+            "level": "Master",
+            "keywords": [
+                "Android",
+                "Java",
+                "Javascript",
+                "Mobile Cross Plataform",
+                "TypeScript",
+                "REST",
+                "Node",
+                "Amazon AWS",
+                "Google App Engine",
+                "Microsoft Azure",
+                "Cordova",
+                "Ionic",
+                "React",
+                "IBM MobileFirst",
+                "HTML",
+                "CSS",
+                "SQLite",
+                "SQL Server 2012",
+                "Git"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Español",
+            "fluency": "Nativo"
+        },
+        {
+            "language": "Ingles",
+            "fluency": "Avanzado"
+        },
+        {
+            "language": "Frances",
+            "fluency": "Básico"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Dream",
+            "keywords": []
+        }
+    ],
+    "references": []
+}
