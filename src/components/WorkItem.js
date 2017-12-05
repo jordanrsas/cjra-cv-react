@@ -6,10 +6,10 @@ momento.locale('es');
 
 const WorkItem = props => {
     const getWorkDates = () => {
-        const startdate = momento(props.workItemData.startDate).format('MMM, YYYY');
+        const startdate = momento(props.workItemData.startDate).format('MMMM/YYYY');
         let enddate = null;
         if (props.workItemData.endDate !== '') {
-          enddate = momento(props.workItemData.endDate).format('MMM, YYYY');
+          enddate = momento(props.workItemData.endDate).format('MMMM/YYYY');
         } else {
           enddate = 'Actual';
         }

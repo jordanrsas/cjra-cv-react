@@ -2,11 +2,11 @@
     "basics": {
         "name": "Jordán Rosas",
         "label": "Android Developer",
-        "picture": "images/profile_cv.png",
+        "picture": "images/profile_cv.jpg",
         "email": "cj.rosasavila@gmail.com",
         "phone": "5529213693",
         "website": "http://cjordandev.com",
-        "summary": "Los últimos 4 años he desarrollado software, principalmente Android, pero también he incursionado como Full Stack Developer con lenguajes como C#, javascript, java. Implementando a lo largo de estos años diferentes frameworks y metodologías de desarrollo ágil. \n Soy curioso y siempre busco aprender cosas nuevas, me considero proactivo y dispuesto a ayudar a todo aquel que me lo pida.",
+        "summary": "Los últimos 4 años he desarrollado software, principalmente Android, pero también he incursionado como Full Stack Developer con lenguajes como C#, javascript, java, implementando a lo largo de los años diferentes frameworks y metodologías de desarrollo ágil. \n Soy curioso y siempre busco aprender cosas nuevas, proactivo, gusto del trabajo en equipo, flexible y con la mejor actitud.",
         "location": {
             "address": "México",
             "postalCode": "54189",
@@ -37,9 +37,9 @@
             "company": "Zunguapp",
             "position": "Full Stack Developer Sr.",
             "website": "http://www.zunguapp.com",
-            "startDate": "201-09-18",
+            "startDate": "2017-09-18",
             "endDate": "",
-            "summary": "En Zungu administro, diseño, desarrollo y pongo en marcha los diferentes proyectos Móviles y Web que el desarrollo de la StartUp demanda. \nImplementando tecnologías que Amazon AWS brinda.",
+            "summary": "En Zungu administro, diseño, desarrollo y pongo en marcha los diferentes proyectos Móviles y Web que el desarrollo de una StartUp demanda. \nImplementando tecnologías que Amazon AWS brinda.",
             "highlights": []
         },
         {
@@ -57,7 +57,7 @@
             "website": "https://formiik.com",
             "startDate": "2014-12-01",
             "endDate": "2015-12-31",
-            "summary": "Como consulto de integración y desarrollo mis tareas principales, eran el desarrollo de aplicaciones complementarias a Formiik, como eran aplicaciones Android que integraban bases de datos SQLite, integrar la impresión de tikets con impresoras móviles y todo lo que pueda agregar valor a la implementación de Formiik con los clientes. \nAdemás de brindar soporte y capacitación para el desarollo de servicios web para la integración del backend del cliente con las herramientas que Formiik brinda. Implementando tecnologías de Azure y Servicios REST en .Net y Java",
+            "summary": "Como consultor de integración y desarrollo mis tareas principales, eran el desarrollo de aplicaciones complementarias a Formiik, como eran aplicaciones Android que integraban bases de datos SQLite, integrar la impresión de tickets con impresoras móviles y todo lo que pueda agregar valor a la implementación de Formiik con los clientes. \nAdemás de brindar soporte y capacitación para el desarrollo de servicios web para la integración del backend del cliente con las herramientas que Formiik brinda. Implementando tecnologías de Azure y Servicios REST en .Net y Java",
             "highlights": []
         },
         {
@@ -75,14 +75,14 @@
             "website": "",
             "startDate": "2013-02-16",
             "endDate": "2014-02-15",
-            "summary": "En Adquem colavoré con el área de investigación y desarrollo, incursionando en desarrollo Móvil Android y en el desarrollo de BackEnd usando Google Apps Engine.",
+            "summary": "En Adquem colaboré con el área de investigación y desarrollo, incursionando en desarrollo Móvil Android y en el desarrollo de BackEnd usando Google Apps Engine.",
             "highlights": []
         }
     ],
     "volunteer": [],
     "education": [
         {
-            "institution": "Instituto Politecnico Nacional",
+            "institution": "Instituto Politécnico Nacional",
             "area": "Mecatrónica",
             "studyType": "Ingeniería ",
             "startDate": "2006-07-01",
@@ -95,7 +95,7 @@
     "publications": [],
     "skills": [
         {
-            "name": "Android Development",
+            "name": "Android Developer",
             "level": "Master",
             "keywords": [
                 "Android",

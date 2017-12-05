@@ -12,7 +12,7 @@ const Work = props => {
 
     return (
       <section className="work">
-        <h2 className="text-uppercase"><i className="fa fa-lg fa-building"></i> Work experience</h2>
+        <h2 className="text-uppercase"><i className="fa fa-lg fa-building"></i> Experiencia Laboral</h2>
         {getWorkExperience()}
       </section>
     );
