@@ -59,10 +59,12 @@ const Profile = ({ profileData }) => {
         <ul className="profileLinks list-inline text-center">
             <li><a className="fa fa-linkedin fa-2x" href={profileData.profiles[0].url} target="_blank"></a></li>
             <li><a className="fa fa-github fa-2x" href={'https://github.com/' + profileData.profiles[1].username} target="_blank"></a></li>
-            <li><a className="fa fa-google-plus fa-2x" href={ profileData.profiles[2].url} target="_blank"></a></li>
+            <li><a className="fa fa-google-plus fa-2x" href={profileData.profiles[2].url} target="_blank"></a></li>
         </ul>
         <hr />
-        <Parrafo>Construí este sitio web con <a href="https://facebook.github.io/react/">React</a> e implementé el <a href="https://jsonresume.org/schema/">JSON Resume Schema</a>.</Parrafo>
+        <Parrafo>Construí este sitio web con <a href="https://facebook.github.io/react/" target="_blank">React</a> e implementé el <a href="https://jsonresume.org/schema/" target="_blank">JSON Resume Schema</a>.
+        Puedes encontrar este proyecto en mi perfil de <a href="https://github.com/jordanrsas/cjra-cv-react" target="_blank">GitHub</a>.
+        </Parrafo>
     </About>
 };
 
