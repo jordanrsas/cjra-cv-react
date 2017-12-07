@@ -60,6 +60,9 @@ const Profile = ({ profileData }) => {
             <li><a className="fa fa-linkedin fa-2x" href={profileData.profiles[0].url} target="_blank"></a></li>
             <li><a className="fa fa-github fa-2x" href={'https://github.com/' + profileData.profiles[1].username} target="_blank"></a></li>
             <li><a className="fa fa-google-plus fa-2x" href={profileData.profiles[2].url} target="_blank"></a></li>
+            <li><a className="fa fa-twitter fa-2x" href={profileData.profiles[3].url} target="_blank"></a></li>
+            <li><a className="fa fa-tumblr fa-2x" href={profileData.profiles[4].url} target="_blank"></a></li>
+            
         </ul>
         <hr />
         <Parrafo>Construí este sitio web con <a href="https://facebook.github.io/react/" target="_blank">React</a> e implementé el <a href="https://jsonresume.org/schema/" target="_blank">JSON Resume Schema</a>.

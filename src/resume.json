@@ -29,6 +29,15 @@
                 "network": "Google Plus",
                 "username": "cj.rosasavila@gmail.com",
                 "url": "https://plus.google.com/106322517087849042665"
+            },
+            {
+                "network": "Twitter",
+                "username": "@cjoroav",
+                "url": "https://twitter.com/cjoroav"
+            },{
+                "network": "Tumblr",
+                "username": "cjordanrosas",
+                "url": "https://cjordanrosas.tumblr.com/"
             }
         ]
     },
