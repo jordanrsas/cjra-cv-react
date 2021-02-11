@@ -113,7 +113,7 @@ a {
 .profileLinks li a {
   text-decoration: none;
   color: #000;
-  padding: 40px;
+  padding: 10px;
 }
 .profileLinks li a:hover {
   color: #23527c;
