@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedinIn, faGithubAlt, faTwitter, faTumblr } from '@fortawesome/free-brands-svg-icons'
+import { faLocationArrow, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const About = styled.div`
 display: inline-block;
@@ -18,6 +21,7 @@ color: #333;
 `
 
 const Parrafo = styled.p`
+text-align:justify;
 `
 
 const H1 = styled.h1`
@@ -28,7 +32,7 @@ color:black;
 const H2 = styled.h2`
 text-align:center;
 font-size:2rem;
-color: #777;
+color: #ff9e40;
 `
 const Image = styled.img`
 display: block;
@@ -51,17 +55,18 @@ const Profile = ({ profileData }) => {
         <hr />
         <ul className="list-unstyled contact-links text-center">
             <li>
-                <i className="fa fa-lg fa-location-arrow"></i>{profileData.location.city}, {profileData.location.region}, {profileData.location.countryCode}
+                <FontAwesomeIcon icon={faLocationArrow} color="#ff9e40" /><a> {profileData.location.city}, {profileData.location.countryCode}</a>
             </li>
-            <li><i className="fa fa-lg fa-envelope"></i><a href={`mailto:${profileData.email}`}>{profileData.email}</a></li>
+            <li>
+                <FontAwesomeIcon icon={faEnvelope} color="#ff9e40" /><a href={`mailto:${profileData.email}`}> {profileData.email}</a>
+            </li>
         </ul>
         <hr />
-        <ul className="profileLinks list-inline text-center">
-            <li><a className="fa fa-linkedin fa-2x" href={profileData.profiles[0].url} target="_blank"></a></li>
-            <li><a className="fa fa-github fa-2x" href={'https://github.com/' + profileData.profiles[1].username} target="_blank"></a></li>
-            <li><a className="fa fa-google-plus fa-2x" href={profileData.profiles[2].url} target="_blank"></a></li>
-            <li><a className="fa fa-twitter fa-2x" href={profileData.profiles[3].url} target="_blank"></a></li>
-            <li><a className="fa fa-tumblr fa-2x" href={profileData.profiles[4].url} target="_blank"></a></li>
+        <ul className="profileLinks text-center">
+            <li><a href={profileData.profiles[0].url} target="_blank"><FontAwesomeIcon icon={faLinkedinIn} size="2x" color="#0A66C2" /></a></li>
+            <li><a href={'https://github.com/' + profileData.profiles[1].username} target="_blank"><FontAwesomeIcon icon={faGithubAlt} size="2x" /></a></li>
+            <li><a href={profileData.profiles[3].url} target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" color="#1DA1F2"/></a></li>
+            <li><a href={profileData.profiles[4].url} target="_blank"><FontAwesomeIcon icon={faTumblr} size="2x" color="#001935"/></a></li>
             
         </ul>
         <hr />

@@ -9,16 +9,6 @@ import Work from './components/Work'
 import Skills from './components/Skills'
 import Education from './components/Education'
 
-const Body = styled.div`
-font-family: 'Source Sans Pro', sans-serif;
-background-color: white;
-width: calc(100% - 6rem);
-padding: 0.8rem 3rem;
-`
-const MainContainer = styled.div`
-text-align: center;
-`
-
 const CV = styled.div`
 display: inline-block;
 margin-right: 0;

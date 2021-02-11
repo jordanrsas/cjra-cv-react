@@ -1,5 +1,8 @@
 import React from 'react';
 import WorkItem from './WorkItem';
+import Parrafo from './Parrafo'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBuilding } from "@fortawesome/free-solid-svg-icons"
 
 const Work = props => {
     const getWorkExperience = () => {
@@ -12,8 +15,8 @@ const Work = props => {
 
     return (
       <section className="work">
-        <h2 className="text-uppercase"><i className="fa fa-lg fa-building"></i> Experiencia Laboral</h2>
-        {getWorkExperience()}
+        <h1 className="text-uppercase"><FontAwesomeIcon icon={faBuilding}/> Experiencia Laboral</h1>
+        <div><Parrafo texto={getWorkExperience()}/></div>
       </section>
     );
 };

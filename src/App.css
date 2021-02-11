@@ -1,3 +1,9 @@
+@font-face{
+  font-family: 'InconsolataRegular';
+  src: local('InconsolataRegular'), url(./fonts/Inconsolata-Regular.ttf) format('trueType');
+  font-weight: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +38,7 @@ img {
 }
 
 body {
-  background: #f0f0f0;
+  background: red;
 }
 aside, main {
   padding: 10px!important;
@@ -46,20 +52,24 @@ aside .inner, main .inner {
   background: #fff;
   padding: 20px;
 }
+
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 0;
   font-weight: 700;
+  color: #000;
 }
 h2 {
   font-size: 20px;
   margin-top: 10px;
-  color: #777;
+  color: #ff6d00;
 }
 h3 {
+  font-family: InconsolataRegular;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 0;
+  color: #ff9e40;
 }
 h4 {
   font-size: 15px;
@@ -92,9 +102,18 @@ a {
 .contact-links li {
   margin-bottom: 15px;
 }
+.profileLinks {
+  list-style: none;
+}
+
+.profileLinks li {
+  display: inline;
+}
+
 .profileLinks li a {
   text-decoration: none;
   color: #000;
+  padding: 40px;
 }
 .profileLinks li a:hover {
   color: #23527c;
@@ -105,7 +124,25 @@ a {
 }
 .skills-list li {
   font-size: 18px;
+  display: inline;
 }
+
+.skills-list li span{
+  text-decoration: none;
+  color: #000;
+  padding: 30px 30px;
+}
+
 .workDates {
   color: #777;
+}
+
+.startdate {
+  font-family: InconsolataRegular;
+  font-size: 18px;
+  color: #c43c00;
+}
+
+.skill {
+  font-family: InconsolataRegular;
 }

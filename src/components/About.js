@@ -1,12 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
-
+import Parrafo from './Parrafo'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAddressCard } from "@fortawesome/free-solid-svg-icons"
 
 const About = ({aboutData}) => {
     return (
         <section className="about">
-            <h2 className="text-uppercase"><i className="fa fa-lg fa-user"></i> Un poco sobre mi</h2>
-            <div>{aboutData}</div>
+            <h1 className="text-uppercase"><FontAwesomeIcon icon={faAddressCard}/> Un poco sobre mi</h1>
+            <div><Parrafo texto={aboutData}/></div>
         </section>
     );
 };

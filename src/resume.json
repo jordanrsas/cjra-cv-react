@@ -2,11 +2,11 @@
     "basics": {
         "name": "Jordán Rosas",
         "label": "Android Developer",
-        "picture": "images/profile_cv.jpg",
+        "picture": "images/foto_yo.jpeg",
         "email": "cj.rosasavila@gmail.com",
         "phone": "5529213693",
         "website": "http://cjordandev.com",
-        "summary": "Los últimos 4 años he desarrollado software, principalmente Android, pero también he incursionado como Full Stack Developer con lenguajes como C#, javascript, java, implementando a lo largo de los años diferentes frameworks y metodologías de desarrollo ágil. \n Soy curioso y siempre busco aprender cosas nuevas, proactivo, gusto del trabajo en equipo, flexible y con la mejor actitud.",
+        "summary": "Los últimos 8 años he desarrollado software, principalmente Android, pero también he incursionado como Full Stack Developer con lenguajes como C#, javascript, java, TypeScript; implementando a lo largo de los años diferentes frameworks y metodologías de desarrollo ágil. \n Soy curioso y siempre busco aprender cosas nuevas, proactivo, gusto del trabajo en equipo, flexible y con la mejor actitud.",
         "location": {
             "address": "México",
             "postalCode": "54189",
@@ -18,7 +18,7 @@
             {
                 "network": "LinkedIn",
                 "username": "césar-jordán-rosas-ávila-3b388337",
-                "url": "https://www.linkedin.com/in/c%C3%A9sar-jord%C3%A1n-rosas-%C3%A1vila-3b388337/"
+                "url": "https://www.linkedin.com/in/jordan-rosas-dev/"
             },
             {
                 "network": "Github",
@@ -43,11 +43,38 @@
     },
     "work": [
         {
+            "company": "Huawei",
+            "position": "DTSE-Developer Technical Support Engineer",
+            "website": "https://www.huawei.com/mx/",
+            "startDate": "2020-09-09",
+            "endDate": "",
+            "summary": "Responsable de responder a las solicitudes de soporte de los desarrolladores y las preguntas relacionadas con las funciones competentes a Huawei. Encargado del análisis técnico y validación de los Huawei Mobile Services y otras funcionalidades abiertas relacionadas en las aplicaciones de los desarrolladores.",
+            "highlights": []
+        },
+        {
+            "company": "Globant",
+            "position": "Android Developer Sr.",
+            "website": "https://www.globant.com/",
+            "startDate": "2019-01-09",
+            "endDate": "2020-08-30",
+            "summary": "Participe en el desarrollo móvil de una aplicación bancaria usando Clean Architecture y metodologías de desarrollo ágiles",
+            "highlights": []
+        },
+        {
+            "company": "Global Hitss",
+            "position": "Android Developer Sr.",
+            "website": "https://globalhitss.com/",
+            "startDate": "2018-05-03",
+            "endDate": "2019-01-05",
+            "summary": "Desarrollé actualizaciones, módulos y componentes para mitigar los riesgos de seguridad de aplicaciones Android. Programé aplicaciones móviles para diversos clientes bancarios.",
+            "highlights": []
+        },
+        {
             "company": "Zunguapp",
             "position": "Full Stack Developer Sr.",
             "website": "http://www.zunguapp.com",
             "startDate": "2017-09-18",
-            "endDate": "",
+            "endDate": "2018-04-30",
             "summary": "En Zungu administro, diseño, desarrollo y pongo en marcha los diferentes proyectos Móviles y Web que el desarrollo de una StartUp demanda. \nImplementando tecnologías que Amazon AWS brinda.",
             "highlights": []
         },
