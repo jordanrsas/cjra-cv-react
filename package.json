@@ -10,8 +10,11 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "bootstrap": "^4.6.0",
     "moment": "^2.19.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.14.0",
+    "react-grid-gallery": "^0.5.5",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^1.1.5",
     "styled-components": "^2.2.4"
   },

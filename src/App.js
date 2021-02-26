@@ -2,44 +2,18 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import styled from 'styled-components';
 import style from './App.css'
-import json from './resume.json';
-import Profile from './components/Profile'
-import About from './components/About'
-import Work from './components/Work'
-import Skills from './components/Skills'
-import Education from './components/Education'
-
-const CV = styled.div`
-display: inline-block;
-margin-right: 0;
-vertical-align: top;
-overflow: hidden;
-`
-
+import {Route, Switch, Redirect} from 'react-router-dom'
+import CvNavbar from './components/Navbar'
+import Home from './components/Home'
+import Fotos from './components/Fotos'
+import Blog from './components/Blog'
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          <aside className="col-md-4">
-            <div className="inner">
-              <Profile profileData={json.basics} />
-            </div>
-          </aside>
-          <main className="col-md-8">
-            <div className="inner">
-              <CV>
-              <About aboutData={json.basics.summary} />
-              <Work workData={json.work}/>
-              <Skills skillsData={json.skills}/>
-              <Education educationData={json.education} />
-                </CV>
-            </div>
-          </main>
-        </div>
+      <div>
+      
       </div>
-      //<div></div>
     );
   }
 }

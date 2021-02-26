@@ -28,17 +28,13 @@
   font-size: large;
 }
 
-img {
-  width: 200px;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
 body {
-  background: red;
+  background: white;
 }
 aside, main {
   padding: 10px!important;
@@ -145,4 +141,8 @@ a {
 
 .skill {
   font-family: InconsolataRegular;
+}
+
+.nav-container{
+  height: 100%;
 }
