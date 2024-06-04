@@ -40,6 +40,15 @@
     },
     "work": [
         {
+            "company": "Global Payments Inc.",
+            "position": "Android DEveloper",
+            "website": "http://www.globalpayments.com/",
+            "startDate": "2020-27-05",
+            "endDate": "",
+            "summary": "En este puesto es responsable de trabajar con desarrolladores y propietarios de productos para diseñar, desarrollar, probar y respaldar aplicaciones relacionadas con pagos en terminales POS que utilizan el sistema operativo Android.",
+            "highlights": []
+        },
+        {
             "company": "Huawei",
             "position": "DTSE-Developer Technical Support Engineer",
             "website": "https://www.huawei.com/mx/",
